@@ -20,6 +20,12 @@ h1{
     font-size: 45px;
     margin-bottom: 10px;
 }
+h2{
+    font-size: 35px;
+}
+h2, h3, h4, h5{
+    margin-bottom: 20px;
+}
 p{
     margin-bottom: 40px;
 }
@@ -34,6 +40,7 @@ p{
 }
 
 .hero-btn {
+    display: inline-block;
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
@@ -54,6 +61,13 @@ p{
 }
 
 /* second section */
+.second-section{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
 .second-container{
     display: flex;
     align-items: center;
@@ -70,4 +84,41 @@ p{
 .second-right{
     width: 50%;
     padding-left: 20px;
+}
+
+/* Experience */
+.experience{
+    padding-bottom: 100px;
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.experience-container{
+    display: flex;
+}
+.exp-box{
+    width: 50%;
+    padding: 40px;
+    background: #fb6a576e;
+    box-shadow: 6px 12px 20px #973f3498;
+}
+.exp-box p {
+    text-align: justify;
+    line-height: 1.8em;
+}
+
+.exp-left{
+    margin-right: 40px;
+    border-radius: 5px;
+}
+.exp-right{
+    margin-left: 20px;
+    border-radius: 5px;
+}
+/* Footer */
+.copyright{
+    text-align: center;
+}
+.copyright p {
+    color: #272727;
 }
